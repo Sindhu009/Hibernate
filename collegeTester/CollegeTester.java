@@ -7,7 +7,7 @@ import com.xworkz.college.dto.CollegeDTO;
 public class CollegeTester {
 public static void main(String[] args) {
 		
-		CollegeDTO collegeDTO = new CollegeDTO(1,"skit","chikkabanavara",1500,100,6);
+		CollegeDTO collegeDTO = new CollegeDTO(2,"saptagiri","chikkabanavara",1700,150,9);
 		CollegeDAO collegeDaoImpl =new CollegeDAOImpl();
 		collegeDaoImpl.saveCollege(collegeDTO);
 		//collegeDaoImpl.fetchCollege(2);

@@ -1,12 +1,13 @@
 package com.xworkz.college.dto;
 import javax.persistence.Column;
 
+
 import javax.persistence.Entity;
 import javax.persistence.Id;
 import javax.persistence.Table;
 
 @Entity
-@Table(name="college_dto")
+@Table(name="collegedto")
 
 public class CollegeDTO implements java.io.Serializable {
 	@Id
